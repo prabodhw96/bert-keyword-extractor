@@ -96,7 +96,7 @@ with st.form(key="my_form"):
             help="At present, you can choose between 2 models (Flair or DistilBERT) to embed your text. More to come!",
         )
 
-        if ModelType == "Default (BERT)":
+        if ModelType == "BERT (Default)":
 
             @st.cache(allow_output_mutation=True)
             def load_model():
