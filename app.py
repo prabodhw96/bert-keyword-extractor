@@ -100,7 +100,7 @@ with st.form(key="my_form"):
 
             @st.cache(allow_output_mutation=True)
             def load_model():
-                return KeyBERT(model=roberta)
+                return KeyBERT(model=bert)
 
             kw_model = load_model()
 
